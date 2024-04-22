@@ -4,7 +4,7 @@ import com.example.newsappassignment.models.NewsSource
 import retrofit2.Call
 import retrofit2.http.GET
 
-const val api_key="75b1432acbe34671968e48e8dd272f02"
+const val api_key="your_key"
 interface newsRetrofit {
 
     @GET(value= "sources?apiKey=${api_key}")
